@@ -5,5 +5,5 @@ names = names_string.split(",")
 
 # print(names)
 
-n = random.randint(0, len(names))
+n = random.randint(0, len(names)-1)  # 랜덤 인덱스 숫자( 사람 수만큼)
 print(f"오늘 커피는 {names[n]}가 쏩니다")
